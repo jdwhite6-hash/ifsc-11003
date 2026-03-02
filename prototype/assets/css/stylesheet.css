@@ -1,0 +1,15 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+a:hover{
+    color: yellow;
+}
+#pro, #pro li, #pro li em, #pro-label{
+    color: yellow;
+}
+dt{
+    color: red
+}
