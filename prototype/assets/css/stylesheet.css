@@ -3,6 +3,7 @@
 }
 body{
     background-color: black;
+    font-family: "Libre Baskerville";
 }
 a:hover{
     color: yellow;
@@ -12,4 +13,7 @@ a:hover{
 }
 dt{
     color: red
+}
+img, header.primary{
+    text-align: center;
 }
