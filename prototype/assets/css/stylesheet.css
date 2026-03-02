@@ -14,6 +14,10 @@ a:hover{
 dt{
     color: red
 }
-img, header.primary{
+h1{
+    background-color: orange;
+}
+header.primary{
     text-align: center;
 }
+
