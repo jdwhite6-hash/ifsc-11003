@@ -1,14 +1,12 @@
 *{
-    color: white;
+    color: ;
 }
 body{
-    background-color: black;
+    background-color: #f2f2f2;
     font-family: "Libre Baskerville", sans-serif;
+    margin: 0px 40px;
 }
 a:hover{
-    color: yellow;
-}
-#pro, #pro li, #pro li em, #pro-label{
     color: yellow;
 }
 dt{
@@ -16,8 +14,36 @@ dt{
 }
 h1{
     background-color: orange;
+    margin:0
 }
 header.primary{
     text-align: center;
 }
+header.primary nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
+header.primary nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    background-color ;
+    border: 3px solid;
+    border-color: lightblue;
+    border-radius: 20px;
+}
+header.primary nav ul li a:hover{
+    background-color: darkblue;
+    color: white;
+    border-color: darkblue
+
+}
+#pro,#pro-label{
+    color:gold
+}
+#pro-label ul li{
+    padding:10px;
+    background-color: black;
+}
