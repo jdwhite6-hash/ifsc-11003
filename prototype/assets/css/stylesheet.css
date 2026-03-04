@@ -3,7 +3,7 @@
 }
 body{
     background-color: black;
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", sans-serif;
 }
 a:hover{
     color: yellow;

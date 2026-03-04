@@ -43,15 +43,52 @@ html {
 /*----------------------Global Styles--------------------*/
 
 body {
-  font-family: "Share Tech";
+  font-family: "Share Tech", sans-serif;
+  margin:0;
 }
 header.primary {
   background-color: #172635;
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px black;
+  /* Single Value */
+  padding:40px;
+  /* T/B | L/R */
+  padding: 20px 20px;
+    /* T/R/B/L */
+  padding: 25px 20px 2px 20px;
 }
 header.primary a{
   color: white;
   text-decoration: none;
+}
+header.primary h1{
+  font-size: 2.4rem;
+  margin:0;
+  letter-spacing: 2px;
+}
+header.primary p.subtitle{
+  font-size: 1.3rem;
+  margin:0;
+  letter-spacing: 2px;
+}
+nav.primary ul{
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.1rem;
+}
+nav.primary ul li{
+  list-style-type: none;
+}
+nav.primary ul li a{
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+}
+nav.primary ul li a:hover{
+    background-color: rgba(0, 0, 0, 2);
+
 }
