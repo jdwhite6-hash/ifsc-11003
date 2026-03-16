@@ -7,8 +7,20 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/* --------------Responsive Images ---------------- */
+
+
+img{
+  max-width: 100%;
+}
 
 /* --------------Utility Classes ---------------- */
+
+.container{
+  max-width: 960px;
+  margin: 20px auto;
+}
+
 
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -65,7 +77,6 @@ header.primary a{
 header.primary h1{
   font-size: 2.4rem;
   margin:0;
-  letter-spacing: 2px;
 }
 header.primary p.subtitle{
   font-size: 1.3rem;
@@ -78,17 +89,126 @@ nav.primary ul{
   flex-direction: row;
   justify-content: space-around;
   font-size: 1.1rem;
+  gap: 40px;
 }
 nav.primary ul li{
   list-style-type: none;
+  flex:1;
 }
 nav.primary ul li a{
   background-color: rgba(0, 0, 0, .5);
   padding: 10px 20px;
   border: 2px solid #ffffff;
   border-radius: 40px;
+  display:block
 }
 nav.primary ul li a:hover{
     background-color: rgba(0, 0, 0, 2);
 
 }
+#content h2{
+  color:#172635;
+  padding-bottom: 5px;
+  border-bottom: 8px groove lightgray;
+}
+
+#content p{
+  line-height: 1.4;
+}
+
+#blog{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+figure{
+  margin:0;
+}
+h2#recent-posts{
+  flex: 0 0 100%;
+}
+#blog article.post{
+  box-shadow:11px 14px 14px 7px rgba(0, 0, 0, .6);
+  padding:10px;
+  font-size: .8rem;
+  flex: 1;
+}
+
+article.post time{
+  text-transform: capitalize;
+  font-size: .8rem;
+}
+article.post time, article.post figcaption{
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+article.post a{
+  color:#4b634b;
+}
+
+aside[aria-label="Sidebar"]{
+  background-color: darkmagenta;
+  padding: 20px 0;
+  color: white;
+}
+aside .container{
+  display:flex;
+  gap:40px;
+  justify-content: space-evenly
+}
+aside .container a:last-child{
+  color:white;
+  display:block;
+  text-align:right;
+  margin-top: 20px;
+}
+aside .container a:hover{
+  color: yellow;
+}
+aside footer{
+  display:none;
+}
+aside .widget{
+  flex:1;
+}
+footer.primary{
+  margin: 10px 0;
+  background-color: #172635;
+  color:#ffffff;
+}
+footer.primary p{
+  margin:0;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:600px) {
+
+  .container{
+  }
+
+  nav.primary ul{
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+  }
+  nav.primary ul li{
+    width:100%
+  }
+  
+  nav.primary a{
+    display:block
+  }
+}
+
+
+
+
