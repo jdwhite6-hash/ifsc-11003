@@ -18,6 +18,7 @@ img{
 
 .container{
   max-width: 960px;
+  width: 80vw;
   margin: 20px auto;
 }
 
@@ -57,12 +58,15 @@ img{
 body {
   font-family: "Share Tech", sans-serif;
   margin:0;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header.primary {
-  background-color: #172635;
+  background-color: #f2a766;
   color: #ffffff;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: -2px 2px black;
   /* Single Value */
   padding:40px;
   /* T/B | L/R */
@@ -80,7 +84,7 @@ header.primary h1{
 }
 header.primary p.subtitle{
   font-size: 1.3rem;
-  margin:0;
+  margin: 10px 0 20px;
   letter-spacing: 2px;
 }
 nav.primary ul{
@@ -96,24 +100,27 @@ nav.primary ul li{
   flex:1;
 }
 nav.primary ul li a{
-  background-color: rgba(0, 0, 0, .5);
+  background-color: #ffa94f;
   padding: 10px 20px;
-  border: 2px solid #ffffff;
+  border: 4px ridge #fdd39b;
   border-radius: 40px;
-  display:block
+  display:block;
 }
 nav.primary ul li a:hover{
-    background-color: rgba(0, 0, 0, 2);
+  background-color: rgba(0, 0, 0, .5);
 
 }
 #content h2{
-  color:#172635;
+  color:white;
+  text-shadow: black 2px 1px;
   padding-bottom: 5px;
-  border-bottom: 8px groove lightgray;
+  border-bottom: 8px groove #f9994f;
 }
 
 #content p{
   line-height: 1.4;
+  color:#;
+  
 }
 
 #blog{
@@ -127,6 +134,8 @@ figure{
   margin:0;
 }
 h2#recent-posts{
+  color: white;
+  text-shadow: black 2px 1px;
   flex: 0 0 100%;
 }
 #blog article.post{
@@ -145,13 +154,13 @@ article.post time, article.post figcaption{
   font-size: .8rem;
 }
 article.post a{
-  color:#4b634b;
+  color: #111;;
 }
 
 aside[aria-label="Sidebar"]{
-  background-color: darkmagenta;
+  background-color: #d97762;
   padding: 20px 0;
-  color: white;
+  color: black;
 }
 aside .container{
   display:flex;
@@ -159,7 +168,7 @@ aside .container{
   justify-content: space-evenly
 }
 aside .container a:last-child{
-  color:white;
+  color:black;
   display:block;
   text-align:right;
   margin-top: 20px;
@@ -174,7 +183,8 @@ aside .widget{
   flex:1;
 }
 footer.primary{
-  margin: 10px 0;
+  margin:0;
+  padding-top: 20px;
   background-color: #172635;
   color:#ffffff;
 }
@@ -192,20 +202,18 @@ footer.primary p{
 
 @media screen and (max-width:600px) {
 
-  .container{
-  }
 
   nav.primary ul{
   flex-direction: column;
   justify-content: space-around;
-  gap: 5px;
+  gap: 15px;
   }
   nav.primary ul li{
     width:100%
   }
   
   nav.primary a{
-    display:block
+    display:block;
   }
 }
 
