@@ -63,7 +63,6 @@ body {
   background-size: cover;
 }
 header.primary {
-  background-color: #f2a766;
   color: #ffffff;
   text-align: center;
   text-shadow: -2px 2px black;
@@ -94,6 +93,8 @@ nav.primary ul{
   justify-content: space-around;
   font-size: 1.1rem;
   gap: 40px;
+  padding: 20px;
+  border-bottom: 8px dashed #ffa94f 
 }
 nav.primary ul li{
   list-style-type: none;
@@ -119,8 +120,9 @@ nav.primary ul li a:hover{
 
 #content p{
   line-height: 1.4;
-  color:#;
-  
+  color:#fff;
+  text-shadow: gray 1px 1px;
+  padding: 10px ;
 }
 
 #blog{
@@ -160,7 +162,7 @@ article.post a{
 aside[aria-label="Sidebar"]{
   background-color: #d97762;
   padding: 20px 0;
-  color: black;
+  color: white;
 }
 aside .container{
   display:flex;
@@ -168,7 +170,7 @@ aside .container{
   justify-content: space-evenly
 }
 aside .container a:last-child{
-  color:black;
+  color:white;
   display:block;
   text-align:right;
   margin-top: 20px;
@@ -185,7 +187,7 @@ aside .widget{
 footer.primary{
   margin:0;
   padding-top: 20px;
-  background-color: #172635;
+  background-color: #f9994f;
   color:#ffffff;
 }
 footer.primary p{
