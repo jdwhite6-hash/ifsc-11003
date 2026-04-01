@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    background-image: url(../img/background.png);
+    background-image: url(../img/backdrop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 *{  
     color: white;
