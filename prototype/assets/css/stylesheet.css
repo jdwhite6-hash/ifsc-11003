@@ -6,6 +6,16 @@ body{
 a:hover{
     color: yellow;
 }
+.hamburger{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.nav-hidden{
+    display: none;
+}
 dt{
     color: red
 }

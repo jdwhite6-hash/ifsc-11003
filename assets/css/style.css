@@ -55,4 +55,26 @@ li a{
 }
 
 
+/* Media Queries */
+
+@media screen and (max-width:600px) {
+
+  .assignments {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .assignments ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+  }
+  .assignments ul li{
+    width:80%;
+  }
+
+  
+}
 
