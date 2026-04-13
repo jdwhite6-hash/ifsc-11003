@@ -33,6 +33,46 @@
       max-width: 80vw;
       margin: 20px auto;
     }
+    main{
+      grid-template-columns: 2fr 2fr;
+    }
+    header.primary{
+      /* grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 3; */
+      grid-area: 1/1/2/3;
+    }
+    #content{
+      /* grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3; */
+      grid-area: 2/1/4/2;
+
+    }
+    #blog{
+      /* grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 3; */
+      grid-area: 2/2/3/3;
+
+    }
+    aside{
+      /* grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2; */
+      grid-area: 3/2/4/3;
+    }
+    footer.primary{
+      /* grid-row-start:4;
+      grid-row-end: 4;
+      grid-column-start:1;
+      grid-column-end:3; */
+      grid-area: 4/1/4/3;
+    }
   </style>
 
 </head>
