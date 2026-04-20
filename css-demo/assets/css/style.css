@@ -80,6 +80,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#contact header.primary{
+  background-color: green;
+}
 p{
   color:white;
   font-size: 1.1rem;
