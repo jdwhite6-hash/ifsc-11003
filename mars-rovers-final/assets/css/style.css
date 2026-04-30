@@ -36,7 +36,7 @@ img {
 
 .subheader{
   color: white;
-  background-image: url(../img/space-background.avif);
+  background-image: url(../img/space-background.jpg);
   padding:  10px;
   border-radius: 50px;
   text-align: center;
@@ -226,7 +226,7 @@ section.rover h2{
 
 footer.primary{
   padding:20px;
-  background-image: url(../img/space-background.avif);
+  background-image: url(../img/space-background.jpg);
   color:white;
 }
 footer.primary p{
