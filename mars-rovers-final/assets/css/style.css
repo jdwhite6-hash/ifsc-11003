@@ -94,13 +94,14 @@ body {
 header.hero{
 background: hsla(0, 0%, 0%, 1);
 
-background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(11, 74%, 50%, 1) 100%);
+background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 39%, hsla(11, 74%, 50%, 1) 78%);
 
-background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(11, 74%, 50%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 39%, hsla(11, 74%, 50%, 1) 78%);
 
-background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(11, 74%, 50%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 39%, hsla(11, 74%, 50%, 1) 78%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#DE4522", GradientType=1 );}
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#DE4522", GradientType=1 );
+}
 header.hero img{
   display: block;
   margin-left: auto;
@@ -236,15 +237,15 @@ section.rover h2{
 footer.primary{
   padding:20px;
   background-image: url(../img/space-background.jpg);
+  text-align:center;
   color:white;
 }
 footer.primary p{
-  text-align: center;
   margin:0 0 10px 0;
 }
+
 footer.primary h3{
-  text-align: center;
-  margin: 0 10px; 
+  margin: 10px 10px; 
 }
 
 
@@ -301,6 +302,10 @@ tbody tr:nth-child(odd) {
 tbody td:first-child {
     font-size: 1rem;
     font-weight: 600;
+}
+
+body.mission-history footer.primary h3{
+  margin-top: 10px;
 }
 
 /* FAQ Styles */
